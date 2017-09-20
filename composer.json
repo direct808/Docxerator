@@ -1,0 +1,29 @@
+{
+    "name": "Direct808/Docxerator",
+    "authors": [
+        {
+            "name": "direct808",
+            "email": "direct808@yandex.ru"
+        }
+    ],
+    "keywords": [
+        "docxerator",
+        "docx",
+        "msword",
+        "ms word"
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Direct808\\Docxerator\\": "src/"
+        }
+    },
+      "autoload-dev": {
+        "psr-4": {
+            "Direct808\\Docxerator\\": "tests/utils/"
+        }
+    }
+}
