@@ -1,5 +1,6 @@
 {
     "name": "direct808/docxerator",
+    "description": "Simple MS Word DOCX template processor",
     "authors": [
         {
             "name": "direct808",
