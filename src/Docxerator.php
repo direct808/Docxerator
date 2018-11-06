@@ -66,7 +66,7 @@ class Docxerator
 
     function replace($key, $value)
     {
-        $value = str_replace("&", "&amp;", $value);
+        $value = htmlspecialchars($value);
         if (!array_key_exists($key, $this->marks))
             throw new MarkNotFoundException("Mark '$key' not found");
 
